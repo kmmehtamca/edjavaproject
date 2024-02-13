@@ -30,6 +30,9 @@
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
 			<version>0.8.6</version>
+			<configuration>
+				<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+			</configuration>
 		</dependency>
 	</dependencies>
 	<build>
